@@ -1,0 +1,86 @@
+/* Höhe Variationsname als Badge*/
+ .variation .badge {
+    min-height: 2.75rem;
+ }
+
+ /* Ausblenden des Stickys im Konfigurator */
+ #cfg-accordion div.cfg-group.js-cfg-group div.collapse.js-cfg-group-collapse div.cfg-group-info.sticky-top {
+   display: none;
+ }
+
+ /* Lupe Positionieren */
+ .varLupe {
+   z-index: 10;
+   position: absolute;
+   top: 3.5rem;
+   left: 3.3rem;
+ }
+
+ /* Varianten Badge ausblenden */
+ .variation-badge {
+   display: none;
+ }
+ /* Konfigurator Abstand unten */
+ .cfg-group .config-item {
+     margin-bottom: 0rem;
+ }
+
+ #cfg-container-tab-panes {
+     height: calc((var(--vh,1vh)*78) - 10rem);
+ }
+
+/* Bilder rund im Konfigurator
+div#cfg-grp-cllps-1 div div.col div label div div div.inner picture img.img-fluid {
+    border-radius: 100px;
+}
+*/
+/*
+div#add-to-cart.product-buy div.alert.choose-variations.alert-info,
+form#buy_form.jtl-validate div.row div.row div.col.js-choose-variations-wrapper.col-12 div.alert.choose-variations.alert-info,
+div#product-offer.row.product-detail div.col.product-info.col-lg-6.col-12 div.product-info-inner div.product-offer div.row div.col.js-choose-variations-wrapper.col-12 {
+  display: none;
+}
+*/
+
+
+
+
+/* Nächster Schritt
+div#cfg-accordion.accordion div.cfg-group.js-cfg-group.visited div.collapse.js-cfg-group-collapse.show div.sticky-bottom button.btn.js-cfg-next {
+  font-size: 1.125rem;
+}*/
+
+/*
+#add-to-cart.product-buy div.alert > p:nth-child(4) {
+  display: none;
+}
+*/
+
+/* MegaMenu Hintergrund ausblenden */
+header .dropdown-menu {
+  background: none;
+}
+
+/* Submenu weiß */
+#mainNavigation div ul li .dropdown-menu .dropdown-body .subcategory-wrapper {
+  background-color: #ffffff;
+}
+
+/* Breite DropDown */
+@media (min-width: 768px) {
+  #mainNavigation div ul li .dropdown-menu .dropdown-body .container.subcategory-wrapper {
+    width: 300px;
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNavigation div ul li .dropdown-menu .dropdown-body .container.subcategory-wrapper {
+    width: 300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #mainNavigation div ul li .dropdown-menu .dropdown-body .container.subcategory-wrapper {
+    width: 300px;
+  }
+}
